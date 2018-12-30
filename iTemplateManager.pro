@@ -29,20 +29,17 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
     mainwindow.cpp \
-    aboutwindow.cpp \
     directorytreenode.cpp \
     dataholder.cpp
 
 HEADERS += \
         mainwindow.h \
     defs.h \
-    aboutwindow.h \
     directorytreenode.h \
     dataholder.h
 
 FORMS += \
-        mainwindow.ui \
-    aboutwindow.ui
+        mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

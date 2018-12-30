@@ -7,6 +7,6 @@
 #define VERSION 0x000100
 
 #define COPYRIGHT "Copyright © 2018 Benjamin P.M. Lovegood"
-#define DESCRIPTION "A part of project iDECenter. See https://github.com/iDECenter/"
+#define DESCRIPTION "A part of project iDECenter. See https://github.com/iDECenter/."
 
 #endif // DEFS_H

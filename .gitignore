@@ -59,3 +59,10 @@ build
 
 *.exe
 *.exe.manifest
+
+3rd/**/*.dll
+3rd/**/*.h
+3rd/**/*.lib
+3rd/**/*.def
+3rd/**/*.exp
+!**/README

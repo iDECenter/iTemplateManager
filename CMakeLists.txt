@@ -15,5 +15,8 @@ find_package(Qt5Widgets REQUIRED)
 
 aux_source_directory(. SRC)
 
+include_directories(./3rd/libarchive/include)
+link_directories(./3rd/libarchive/lib)
+
 add_executable(iTemplateManager WIN32 ${SRC})
 target_link_libraries(iTemplateManager Qt5::Core Qt5::Widgets)
